@@ -1,6 +1,6 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * _isalpha - check the code for Holberton School students.
+ * _isalpha - check the code
  * @c: c class
  * Return: Always 0.
  */
