@@ -18,16 +18,3 @@ int print_last_digit(int n)
 	_putchar(last + '0');
 	return (last);
 }
-
-// #include "main.h"
-// /**
-// * print_last_digit - last digit
-// * @n: n int
-// *
-// * Return: last digit
-// */
-// int print_last_digit(int n)
-// {
-// _putchar('0' + (n / 10));
-// return (0);
-// }
