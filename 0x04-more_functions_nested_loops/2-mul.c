@@ -1,12 +1,14 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * mul - check the code for Holberton School students.
- * @a: character a
- * @b: character b
- * Return: success
+ * mul - gives the product of a and b
+ * @a: variable
+ * @b: variable
+ *
+ * Return: a * b
  */
+
 int mul(int a, int b)
 {
-int mult = a * b;
-return (mult);
+return (a * b);
 }
