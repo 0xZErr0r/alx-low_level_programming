@@ -1,6 +1,6 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * _islower - check the code for Holberton School students.
+ * _islower - check the code
  * @c: c file
  * Return: Always 0
  */
