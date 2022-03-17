@@ -1,20 +1,30 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * more_numbers - check the code for Holberton School students
- * Return: success
+ * more_numbers - prints 0 - 14
+ *
+ * Return: void
  */
+
 void more_numbers(void)
 {
-int i, j;
-for (i = 0; i <= 9; i++)
-{
-for (j = 0 ; j <= 14; j++)
-{
-if (j >= 10)
-_putchar('0' + (j / 10));
-_putchar('0' + (j % 10));
-}
-_putchar('\n');
-}
-return;
+	char n, c;
+	int i = 0;
+
+	while (i < 10)
+	{
+		for (n = 0; n <= 14; n++)
+		{
+			c = n;
+			if (n > 9)
+			{
+				_putchar('1');
+				c = n % 10;
+			}
+			_putchar('0' + c);
+		}
+
+		_putchar('\n');
+		i++;
+	}
 }
