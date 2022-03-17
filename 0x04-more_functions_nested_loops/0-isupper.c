@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * _isupper - check the code for Holberton School students.
- * @c: characters
- * Return: 1 and 0
+ * _isupper - uppercase checker
+ * @c: int var
+ * Return: 1 if T and 0 if F
  */
 
 int _isupper(int c)
