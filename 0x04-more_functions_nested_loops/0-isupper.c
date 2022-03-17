@@ -1,5 +1,4 @@
-#include "main.h"
-#include <stdio.h>
+#include "holberton.h"
 /**
  * _isupper - check the code for Holberton School students.
  * @c: characters
