@@ -1,8 +1,8 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
 
 /**
- * Auth: Brennan D Baraban
+ * Auth: e
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x0B-more_malloc_free directory.
  */
